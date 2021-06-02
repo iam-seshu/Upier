@@ -22,7 +22,7 @@ function genLink() {
             document.getElementById("outlink").value = linkset;
             document.getElementById("outlink").select();
         } else {
-            var linkset = "https://" + parser.hostname + "/pay?vpa=" + vpaset + "&amount=" + amountset;
+            var linkset = "https://adsbyseshu.herokuapp.com/?url=" + parser.hostname + "/pay?vpa=" + vpaset + "&amount=" + amountset;
             document.getElementById("outlink").value = linkset;
             document.getElementById("outlink").select();
         }
